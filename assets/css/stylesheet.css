@@ -184,6 +184,9 @@ a {
 }
 .team-member-img {
   transition-duration: 0.15s;
+  object-fit: fill;
+  height: 250px;
+  width: 300px;
 }
 .team-member:hover .team-member-img {
   padding: 10px !important;
