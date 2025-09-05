@@ -287,12 +287,12 @@
 
 /*** Features ***/
 .feature {
-    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/carousel-1.jpg) left center no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgb(166, 196, 241) 50%), url(../img/breadcrumb-bg.jpg) left center no-repeat;
     background-size: cover;
 }
 
 .bullet-window{
-    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/breadcrumb-bg.jpg) left center no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgb(166, 196, 241) 50%), url(../img/breadcrumb-bg.jpg) left center no-repeat;
     background-size: cover;
 }
 
