@@ -17,8 +17,7 @@
      --bs-white: #fff;
      --bs-gray: #6c757d;
      --bs-gray-dark: #343a40;
-     --bs-primary: #CE9233;
-     /* --bs-primary: #CE9233; */
+     --bs-primary: #00485e;
      --bs-secondary: #797672;
      --bs-success: #198754;
      --bs-info: #0dcaf0;
@@ -234,7 +233,7 @@
  }
 
  a {
-     color: #CE9233;
+     color: #00485e;
      text-decoration: none
  }
 
@@ -2549,8 +2548,8 @@
  }
 
  .form-check-input:checked {
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .form-check-input:checked[type=checkbox] {
@@ -2562,8 +2561,8 @@
  }
 
  .form-check-input[type=checkbox]:indeterminate {
-     background-color: #CE9233;
-     border-color: #CE9233;
+     background-color: #00485e;
+     border-color: #00485e;
      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
  }
 
@@ -2654,7 +2653,7 @@
      width: 1rem;
      height: 1rem;
      margin-top: -0.25rem;
-     background-color: #CE9233;
+     background-color: #00485e;
      border: 0;
      border-radius: 1rem;
      -webkit-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -2687,7 +2686,7 @@
  .form-range::-moz-range-thumb {
      width: 1rem;
      height: 1rem;
-     background-color: #CE9233;
+     background-color: #00485e;
      border: 0;
      border-radius: 1rem;
      -moz-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -3139,21 +3138,21 @@
 
  .btn-primary {
      color: #000;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .btn-primary:hover {
      color: #000;
-     background-color: #d5a252;
-     border-color: #d39d47
+     background-color: #3dd8c8;
+     border-color: #3f66db
  }
 
  .btn-check:focus+.btn-primary,
  .btn-primary:focus {
      color: #000;
-     background-color: #d5a252;
-     border-color: #d39d47;
+     background-color: #3dd8c8;
+     border-color: #3f66db;
      box-shadow: 0 0 0 .25rem rgba(175, 124, 43, .5)
  }
 
@@ -3164,7 +3163,7 @@
  .show>.btn-primary.dropdown-toggle {
      color: #000;
      background-color: #d8a85c;
-     border-color: #d39d47
+     border-color: #3f66db
  }
 
  .btn-check:checked+.btn-primary:focus,
@@ -3178,8 +3177,8 @@
  .btn-primary:disabled,
  .btn-primary.disabled {
      color: #000;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .btn-secondary {
@@ -3498,14 +3497,14 @@
  }
 
  .btn-outline-primary {
-     color: #CE9233;
-     border-color: #CE9233
+     color: #00485e;
+     border-color: #00485e
  }
 
  .btn-outline-primary:hover {
      color: #000;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .btn-check:focus+.btn-outline-primary,
@@ -3519,8 +3518,8 @@
  .btn-outline-primary.active,
  .btn-outline-primary.dropdown-toggle.show {
      color: #000;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .btn-check:checked+.btn-outline-primary:focus,
@@ -3533,7 +3532,7 @@
 
  .btn-outline-primary:disabled,
  .btn-outline-primary.disabled {
-     color: #CE9233;
+     color: #00485e;
      background-color: rgba(0, 0, 0, 0)
  }
 
@@ -3819,7 +3818,7 @@
 
  .btn-link {
      font-weight: 400;
-     color: #CE9233;
+     color: #00485e;
      text-decoration: none
  }
 
@@ -4195,7 +4194,7 @@
  .dropdown-item:active {
      color: #fff;
      text-decoration: none;
-     background-color: #CE9233
+     background-color: #00485e
  }
 
  .dropdown-item.disabled,
@@ -4243,7 +4242,7 @@
  .dropdown-menu-dark .dropdown-item.active,
  .dropdown-menu-dark .dropdown-item:active {
      color: #fff;
-     background-color: #CE9233
+     background-color: #00485e
  }
 
  .dropdown-menu-dark .dropdown-item.disabled,
@@ -4385,7 +4384,7 @@
  .nav-link {
      display: block;
      padding: .5rem 1rem;
-     color: #CE9233;
+     color: #00485e;
      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
  }
 
@@ -4452,7 +4451,7 @@
  .nav-pills .nav-link.active,
  .nav-pills .show>.nav-link {
      color: #fff;
-     background-color: #CE9233
+     background-color: #00485e
  }
 
  .nav-fill>.nav-link,
@@ -5205,7 +5204,7 @@
  .page-link {
      position: relative;
      display: block;
-     color: #CE9233;
+     color: #00485e;
      background-color: #fff;
      border: 1px solid #dee2e6;
      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
@@ -5239,8 +5238,8 @@
  .page-item.active .page-link {
      z-index: 3;
      color: #fff;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .page-item.disabled .page-link {
@@ -5447,7 +5446,7 @@
      color: #fff;
      text-align: center;
      white-space: nowrap;
-     background-color: #CE9233;
+     background-color: #00485e;
      transition: width .6s ease
  }
 
@@ -5538,8 +5537,8 @@
  .list-group-item.active {
      z-index: 2;
      color: #fff;
-     background-color: #CE9233;
-     border-color: #CE9233
+     background-color: #00485e;
+     border-color: #00485e
  }
 
  .list-group-item+.list-group-item {
@@ -6941,7 +6940,7 @@
  }
 
  .link-primary {
-     color: #CE9233
+     color: #00485e
  }
 
  .link-primary:hover,
@@ -7367,7 +7366,7 @@
  }
 
  .border-primary {
-     border-color: #CE9233 !important
+     border-color: #00485e !important
  }
 
  .border-secondary {
@@ -8344,7 +8343,7 @@
  }
 
  .text-primary {
-     color: #CE9233 !important
+     color: #00485e !important
  }
 
  .text-secondary {
@@ -8400,7 +8399,7 @@
  }
 
  .bg-primary {
-     background-color: #CE9233 !important
+     background-color: #00485e !important
  }
 
  .bg-secondary {
